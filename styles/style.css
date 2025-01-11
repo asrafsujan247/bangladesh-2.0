@@ -322,3 +322,45 @@ input::placeholder {
   background-color: rgba(0, 106, 80, 1);
   padding: 17px 34px;
 }
+
+/* newsletter styles */
+
+.newsletter-section {
+  text-align: center;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+
+.newsletter-container {
+  padding: 80px 265px;
+}
+
+.newsletter-description {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.subscribe-inputs {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.email-input {
+  font-size: 17px;
+  color: rgba(14, 14, 14, 0.8);
+  padding: 18px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 8px 0 0 8px;
+}
+.subscribe-input {
+  border: 0;
+  padding: 17px 34px;
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0 8px 8px 0;
+}
