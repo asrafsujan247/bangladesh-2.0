@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -163,4 +163,31 @@ body {
 
 .vision-btn-3 {
   background-color: rgba(255, 194, 57, 1);
+}
+
+/* quote styles */
+
+.quote-container {
+  background-color: #fff;
+  padding: 48px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-size: 64px;
+  background-position: 2% 12%;
+}
+
+.quote-author-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 12px;
+}
+
+.quote-author-detail {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: 5px;
 }
