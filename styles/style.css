@@ -176,6 +176,7 @@ body {
   background-repeat: no-repeat;
   background-size: 64px;
   background-position: 2% 12%;
+  margin-bottom: 80px;
 }
 
 .quote-author-name {
@@ -190,4 +191,134 @@ body {
   font-weight: 400;
   color: rgba(14, 14, 14, 0.6);
   margin-top: 5px;
+}
+
+/* recent news styles */
+
+.recent-news-description {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.news {
+  display: flex;
+  gap: 32px;
+  background-color: #fff;
+  border-radius: 24px;
+  margin-bottom: 24px;
+  padding: 48px;
+}
+
+.news-img {
+  max-width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+
+.news-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.news-date-time-container {
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.news-date {
+  margin-right: 12px;
+}
+
+.news-description {
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.news-btn {
+  font-size: 18;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0, 106, 80, 1);
+  border: none;
+  padding: 13px 26px;
+  border-radius: 8px;
+}
+
+/* donate section styles */
+
+.donate-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.donate-section-info {
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.donate-description {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.donate-amount-container {
+  max-width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+
+.amount {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  padding: 40px;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+#highlighted-amount {
+  background-color: rgba(198, 228, 214, 1);
+}
+
+.amount-input-field-container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.amount-input-container {
+  padding: 32px;
+}
+
+.amount-input {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.9);
+}
+
+input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+}
+
+.amount-btn-container {
+  text-align: center;
+}
+
+.amount-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 17px 34px;
 }
